@@ -18,7 +18,7 @@ Modern Redmine Theme.
 ## Screenshots
 ![](https://raw.githubusercontent.com/yenihayat/redmine-theme-yh/master/screenshots/activity2.png)
 ___
-![](https://raw.githubusercontent.com/yenihayat/redmine-theme-yh/master/screenshots/issue2.png)
+![](https://raw.githubusercontent.com/yenihayat/redmine-theme-yh/master/screenshots/issues2.png)
 ___
 ![](https://raw.githubusercontent.com/yenihayat/redmine-theme-yh/master/screenshots/issues.png)
 ___
