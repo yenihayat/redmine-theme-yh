@@ -1,0 +1,30 @@
+.controller-users.action-index form fieldset input[type=text],
+.controller-users.action-index form fieldset select,
+.controller-admin.action-projects form fieldset input[type=text],
+.controller-admin.action-projects form fieldset select,
+.controller-groups.action-index form fieldset input[type=text],
+.controller-groups.action-index form fieldset select,
+.controller-projects.action-settings form fieldset input[type=text],
+.controller-projects.action-settings form fieldset select,
+.controller-account.action-lost_password #content form input[type=text]
+{
+  margin-bottom: 1rem;
+}
+
+.controller-workflows #content form select {
+  width: auto;
+}
+
+.controller-workflows #content form label + a,
+.controller-workflows #content form input[type=submit] {
+  margin-right: 1rem;
+}
+
+.controller-my.action-account #sidebar p a.icon-del {
+    background-size: 14%;
+}
+
+.controller-gantts.action-show table .icon {
+  background-size: 16px;
+  padding-left: 22px !important;
+}

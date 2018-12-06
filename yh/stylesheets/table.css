@@ -1,0 +1,85 @@
+table.progress td.closed {
+  background: #75c175 none repeat scroll 0%;
+}
+
+table.list:not(.odd-even) tbody tr:nth-child(odd), .odd, #issue-changesets div.changeset:nth-child(odd) {
+  background: transparent;
+}
+
+table.list, .table-list {
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+}
+
+table.list th a {
+  color: var(--font-color);
+}
+
+table.list th, .table-list-header {
+  font-size: .875rem;
+  background: #f9f9f9;
+  border: 1px solid var(--border);
+  padding: .375rem;
+}
+
+table.list tbody tr td.buttons {
+  width: 1%;
+}
+
+table.list td {
+  font-size: .875rem;
+  text-align: left;
+  padding: .375rem;  
+  border: 1px solid var(--border);
+}
+
+table.list tr th:last-child {
+  border-right: none;
+}
+
+table.list tr td:last-child {
+  border-right: none;
+}
+
+table.list td.checkbox {
+  padding: 0;
+  text-align: center;
+}
+
+table.list td.buttons .icon-only {
+  background-size: 14px;
+  background-position: 4px 49%;
+}
+
+table#commit-keywords .add-commit-keywords {
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23ccc' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath d='M18 13h-5v5c0 .55-.45 1-1 1s-1-.45-1-1v-5H6c-.55 0-1-.45-1-1s.45-1 1-1h5V6c0-.55.45-1 1-1s1 .45 1 1v5h5c.55 0 1 .45 1 1s-.45 1-1 1z'/%3E%3C/svg%3E");
+}
+
+table.list td.buttons {
+  text-align: left;
+}
+
+table tbody tr a {
+  color: var(--font-color) !important;
+}
+
+table.cal td.today {
+  background: #ffe67d;
+}
+
+table.list td.subject {
+  width: 50%;
+}
+
+table.list tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table.list td.tick {
+  text-align: center !important;
+}
+
+table.list td.tick span {
+  background-position: 0 50% !important;
+  padding-left: 24px !important;
+}

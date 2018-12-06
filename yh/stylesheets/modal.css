@@ -1,0 +1,30 @@
+div.modal {
+  border: none;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.1);
+  font-size: inherit;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  right: 1rem;
+}
+
+.objects-selection>div, #user_group_ids {
+  margin-top: 1rem;
+  -webkit-column-rule: none;
+  -moz-column-rule: none;
+  -column-rule: none;
+}
+
+input#principal_search {
+  width: 100%;
+}
+
+#member-add-submit {
+  margin-right: .5rem;
+}
+
+div.ui-widget-header {
+ border: none;
+ background:none;
+ color: inherit; 
+}
