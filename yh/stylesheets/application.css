@@ -10,6 +10,8 @@
 @import url(./table.css);
 @import url(./custom_responsive.css);
 @import url(./controller_specific.css);
+@import url(./files.css);
+
 
 /* login page logo settings */
 .action-login #header h1 {
@@ -585,6 +587,10 @@ p.buttons #month {
 p.buttons #year {
   width: 80px !important;
   margin-right: 2rem;
+}
+
+.buttons>.icon:not(:first-child) {
+  margin-left: 5px;
 }
 
 .controller-calendars p.buttons #year {

@@ -108,3 +108,7 @@ table.list td {
   background-size: auto !important;
 }
 
+
+
+/* redmine-3.2.1 */
+#header #main-menu .new-issue { background: transparent; padding-left: 0 !important;  }
