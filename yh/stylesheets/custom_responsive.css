@@ -1,4 +1,15 @@
 @media screen and (max-width: 899px) {
+  #quick-search {
+    float: none;
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  #wrapper .flyout-menu__avatar img.gravatar {
+    width: 24px;
+    height: 24px;
+    margin: .5rem 1rem;
+  }
   #wrapper .flyout-menu h3 {
     font-size: 11px;
     line-height: 19px;

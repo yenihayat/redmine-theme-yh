@@ -20,7 +20,8 @@
   margin-right: 1rem;
 }
 
-.controller-my.action-account #sidebar p a.icon-del {
+.controller-my.action-account #sidebar p a.icon-del,
+.controller-my.action-account .flyout-menu p a.icon-del {
   background-size: 14%;
 }
 

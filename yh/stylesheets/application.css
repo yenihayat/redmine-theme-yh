@@ -547,8 +547,9 @@ fieldset#options td.field {
 }
 
 .action-login #header {
-    display: flex;
-    justify-content: center;  
+  display: flex;
+  justify-content: center;  
+  align-items: center;
 }
 
 .tabular label {
