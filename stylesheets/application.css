@@ -619,6 +619,7 @@ p.buttons #year {
 }
 #content .tabs .tabs-buttons{
 	border-bottom: none;
+	background-color: transparent;
 }
 
 #content .tabs ul li a {
