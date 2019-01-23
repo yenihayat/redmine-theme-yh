@@ -17,7 +17,7 @@
 
 
 /* login page logo settings */
-.action-login #header h1 {
+#header h1 {
   background-image: url("../images/logo.svg");
   background-repeat: no-repeat;
   background-position: 0 50%;
