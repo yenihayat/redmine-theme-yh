@@ -614,6 +614,12 @@ p.buttons #year {
   border-bottom: 1px solid #e4e4e4;
   padding-left: 0;
 }
+#content .tabs {
+	border-bottom: 1px solid #e4e4e4;
+}
+#content .tabs .tabs-buttons{
+	border-bottom: none;
+}
 
 #content .tabs ul li a {
   display: block;
