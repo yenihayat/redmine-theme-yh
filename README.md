@@ -3,9 +3,9 @@ Modern Redmine Theme.
 
 ## Installation
 
-* Download and unzip latest release and copy `yh` folder into your Redmine themes directory (e.g. ` ../public/themes/`)
+* Download and unzip latest release or just clone the project into your Redmine themes directory (e.g. ` ../public/themes/`)
 * Restart Redmine to make the newly installed theme available in your theme list.
-* Go to `"Administration / Settings / Display"` and choose this theme (yh) in themes list.
+* Go to `"Administration / Settings / Display"` and choose this theme (redmine-theme-yh) in themes list.
 * Save your changes.
 
 ## Contributing
