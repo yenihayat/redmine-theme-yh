@@ -67,4 +67,22 @@
     color: var(--font_color);
     border-left: 1px solid transparent;
   }
+	#project-jump .drdn-content .autocomplete{
+		font-size: 1em !important;
+	}
+	#project-jump .drdn-trigger:before{
+		content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E") !important;
+		left: 10px !important;
+		top: 13px !important;
+		transform: none !important;
+		-moz-transition: all .1s linear;
+		-webkit-transition: all .1s linear;
+		transition: all .1s linear;
+	}
+	#project-jump.expanded .drdn-trigger:before{
+		padding-top: 0px !important;
+		-moz-transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		transform:rotate(90deg) !important;
+	}
 }
