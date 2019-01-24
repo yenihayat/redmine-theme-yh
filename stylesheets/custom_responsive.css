@@ -5,6 +5,12 @@
     right: auto;
     top: auto;
   }
+  #admin-menu ul {
+    flex-direction: column;
+  }
+  #content #admin-menu li {
+    width: 100%;
+  }
   #wrapper .flyout-menu__avatar img.gravatar {
     width: 24px;
     height: 24px;

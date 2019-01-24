@@ -4,6 +4,12 @@ div.modal {
   font-size: inherit;
 }
 
+div.modal input[type="submit"],
+div.modal input[type="button"] {
+  margin-top: 1rem;
+  margin-right: .5rem;
+}
+
 .ui-dialog .ui-dialog-titlebar-close {
   right: 1rem;
 }

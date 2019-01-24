@@ -454,8 +454,11 @@ div.flash.notice {
 }
 
 ul.projects.root {
-  column-count: 3;
-  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(120px, auto);
+  grid-auto-flow: dense;
 }
 
 .projects.root li {

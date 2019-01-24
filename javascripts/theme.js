@@ -5,7 +5,7 @@ function createBtn() {
 	$("#login-submit").addClass("btn btn-sm btn-primary");
 	$("input[type=submit] + a.icon").addClass("btn btn-sm btn-outline-dark");
 	$(".controller-enumerations.action-index #content p > a.icon").addClass("btn btn-sm btn-primary");
-
+	$("#ajax-modal input[type=button]").addClass("btn btn-sm btn-outline-dark");
 	$("#content").children(".contextual").find("a:first").addClass("btn btn-sm btn-primary");
 	$("#content").children(".contextual").find("a:not(:first):not(.lock)").addClass("btn btn-sm btn-outline-dark");
 	
@@ -30,20 +30,22 @@ function createDOMObserver(targetNode, callback) {
 
 function init() {
 	$("table").wrap("<div class='table'></div>");
+	$( "#ajax-modal" ).on( "dialogopen", function( event, ui ) {
+		createBtn();	
+	});
 	createBtn();
-}
-
-
-$(document).ready(function() {
-	init();
-
 	createDOMObserver(document.querySelectorAll('body')[0], (mutationsList, observer) => {
 		for(var mutation of mutationsList) {
+			console.log(mutation.type)
         if (mutation.type == 'attributes') {
           $("#member-add-submit").addClass("btn btn-sm btn-primary");
 	 				$("#member-add-submit + input").addClass("btn btn-sm btn-outline-dark");
         }
     }
 	});
+}
 
+
+$(document).ready(function() {
+	init();
 });

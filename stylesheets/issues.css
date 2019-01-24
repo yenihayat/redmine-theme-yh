@@ -32,3 +32,10 @@ div.issue h3 {
 .journal > div > div > p:last-child {
   margin:0;
 }
+
+span.search_for_watchers {
+  margin-top: 5px;
+}
+span.search_for_watchers a {
+  margin-left: -3px;
+}
