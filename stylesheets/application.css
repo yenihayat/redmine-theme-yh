@@ -459,6 +459,13 @@ div.flash.notice {
   width: 120px;
 }
 
+#projects-index {
+  column-count: unset;
+  column-width: auto;
+  -webkit-column-count: unset;
+  -webkit-column-width: auto;
+}
+
 ul.projects.root {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
