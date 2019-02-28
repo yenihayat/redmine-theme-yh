@@ -75,10 +75,30 @@
   position: absolute;
   right: 1rem;
   top: 1rem;
+  display: flex;
 }
 
-#quick-search label, #quick-search #q {
-  display: none;
+#quick-search > form {
+  display: flex;
+  padding-right: 1rem;
+}
+
+#quick-search > form label a {
+  color: #424242;
+}
+
+#quick-search > form label {
+  display: flex;
+  align-items: center;
+  padding-right: .5rem;
+}
+
+#search-types {
+  margin: 1rem 0;
+}
+
+p #search-input {
+  margin-bottom: .5rem;
 }
 
 #main-menu {
