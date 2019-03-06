@@ -36,7 +36,6 @@ function init() {
 	createBtn();
 	createDOMObserver(document.querySelectorAll('body')[0], (mutationsList, observer) => {
 		for(var mutation of mutationsList) {
-			console.log(mutation.type)
         if (mutation.type == 'attributes') {
           $("#member-add-submit").addClass("btn btn-sm btn-primary");
 	 				$("#member-add-submit + input").addClass("btn btn-sm btn-outline-dark");
