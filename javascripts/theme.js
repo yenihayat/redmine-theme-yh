@@ -1,6 +1,7 @@
 
 function createBtn() {
 	$("input[type=submit]").addClass("btn btn-sm btn-primary");
+	$("#attach_files_link").addClass("btn btn-sm btn-primary");
 	$(".tab-content p a.icon").addClass("btn btn-sm btn-primary");
 	$("#login-submit").addClass("btn btn-sm btn-primary");
 	$("input[type=submit] + a.icon").addClass("btn btn-sm btn-outline-dark");
@@ -38,7 +39,7 @@ function init() {
 		for(var mutation of mutationsList) {
         if (mutation.type == 'attributes') {
           $("#member-add-submit").addClass("btn btn-sm btn-primary");
-	 				$("#member-add-submit + input").addClass("btn btn-sm btn-outline-dark");
+	 	  $("#member-add-submit + input").addClass("btn btn-sm btn-outline-dark");
         }
     }
 	});
