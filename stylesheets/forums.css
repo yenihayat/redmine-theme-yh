@@ -2,3 +2,12 @@
 	background-position: 0 1px;
 	background-size: auto;
 }
+
+.controller-messages .message {
+	padding: 1rem;
+  background: #f9f9f9;
+}
+
+.controller-messages .message.reply .contextual .icon {
+	background-size: 50%;
+}
